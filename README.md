@@ -40,3 +40,7 @@ $ cue eval
 builtin package "reflect" undefined:
     ./cue.mod/gen/github.com/sigstore/k8s-manifest-sigstore/pkg/util/mapnode/node_go_gen.cue:7:8
 ```
+
+## References
+
+- <https://github.com/cue-lang/cue/issues/648>
