@@ -17,7 +17,7 @@ _#flagMethodShift: 10
 _#flagRO:          _#flag & 96
 
 // A ValueError occurs when a Value method is invoked on
-// a Value that does not support it. Such cases are documented
+// a [Value] that does not support it. Such cases are documented
 // in the description of each method.
 #ValueError: {
 	Method: string
@@ -97,7 +97,3 @@ _#hiter: {
 #SelectCase: {
 	Dir: #SelectDir
 }
-
-_#go121noForceValueEscape: true
-
-_#maxZero: 1024

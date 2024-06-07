@@ -1,8 +1,8 @@
 module github.com/bradbeck/k8s-cue
 
-go 1.21.5
+go 1.22.4
 
-require github.com/sigstore/k8s-manifest-sigstore v0.5.1
+require github.com/sigstore/k8s-manifest-sigstore v0.5.4
 
 require (
 	github.com/ghodss/yaml v1.0.0 // indirect

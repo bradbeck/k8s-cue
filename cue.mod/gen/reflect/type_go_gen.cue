@@ -30,7 +30,7 @@ import "internal/abi"
 // Two Type values are equal if they represent identical types.
 #Type: _
 
-// A Kind represents the specific kind of type that a Type represents.
+// A Kind represents the specific kind of type that a [Type] represents.
 // The zero Kind is not a valid kind.
 #Kind: uint // #enumKind
 

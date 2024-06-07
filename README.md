@@ -3,6 +3,7 @@
 ## Generating the Project
 
 ```shell
+cue mod init github.com/bradbeck/k8s-cue
 go mod init github.com/bradbeck/k8s-cue
 
 cat <<EOF > dependencies.go
